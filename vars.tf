@@ -7,6 +7,6 @@ output "a" {
 }
 
 variable "b"{}
-output "b"{
+output "c"{
   value = var.b
 }
