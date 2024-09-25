@@ -22,3 +22,4 @@ variable "l" {
 output "l" {
   value = var.l[1]
 }
+
