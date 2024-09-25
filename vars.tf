@@ -5,3 +5,8 @@ variable "a" {
 output "a" {
   value = var.a
 }
+
+variable "b"{}
+output "b"{
+  value = var.b
+}
