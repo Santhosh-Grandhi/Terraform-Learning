@@ -10,3 +10,11 @@ variable c{}
 output "c"{
   value = var.c
 }
+
+variable "l" {
+  default = [
+    10,
+    "Hello",
+    true
+  ]
+}
