@@ -18,3 +18,7 @@ variable "l" {
     true
   ]
 }
+
+output "l" {
+  value = var.l[1]
+}
