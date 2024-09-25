@@ -6,7 +6,7 @@ output "a" {
   value = var.a
 }
 
-variable "b"{}
+variable c{}
 output "c"{
-  value = var.b
+  value = var.c
 }
