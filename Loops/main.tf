@@ -4,10 +4,5 @@ resource "null_resource" "test" {
 }
 
 variable "components" {
-  fruits = [ "apple", "banana" ]
-}
-
-output "fruits" {
-  count = length(var.components)
-  value = var.components[count.index]
+  default = [ "apple", "banana" ]
 }
