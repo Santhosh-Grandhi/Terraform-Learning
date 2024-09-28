@@ -4,7 +4,7 @@ resource "null_resource" "test" {
 }
 
 variable "components" {
-  fruits = [ apple, banana ]
+  fruits = [ "apple", "banana" ]
 }
 
 output "fruits" {
