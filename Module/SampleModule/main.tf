@@ -1,5 +1,6 @@
-output "grade" {
-  value = var.grade
+output "fruits" {
+  count = length(var.fruits)
+  value = "Hello World"
 }
 
-variable grade {}
+variable fruits {}

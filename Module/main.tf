@@ -1,8 +1,8 @@
 module "sample" {
   source = "./SampleModule"
-  grade = var.grade
+  fruits = var.fruits
 }
 
-variable "grade" {
-  default = 10
+variable "fruits" {
+  case1 = ["apple", "banana", "carrot"]
 }
