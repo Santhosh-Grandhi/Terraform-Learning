@@ -1,9 +1,8 @@
 resource "null_resource" "test" {
-
+  count = length(var.fruits)
 }
 
 output "fruits" {
-  count = length(var.fruits)
   value = "Hello World"
 }
 
