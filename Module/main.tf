@@ -1,8 +1,8 @@
 module "sample" {
   source = "./SampleModule"
-  fruits = var.fruits
+  fruits = var.grade
 }
 
-variable "fruits" {
+variable "grade" {
   default = 10
 }
