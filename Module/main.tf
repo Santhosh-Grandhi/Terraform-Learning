@@ -4,5 +4,5 @@ module "sample" {
 }
 
 variable "fruits" {
-  fruits = ["apple", "banana", "carrot"]
+  default = ["apple", "banana", "carrot"]
 }
