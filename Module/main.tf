@@ -4,5 +4,5 @@ module "sample" {
 }
 
 variable "fruits" {
-  case1 = ["apple", "banana", "carrot"]
+  fruits = ["apple", "banana", "carrot"]
 }
