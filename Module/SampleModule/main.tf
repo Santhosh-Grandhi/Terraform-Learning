@@ -1,4 +1,4 @@
-output "fruits" {
+output "grade" {
   value = var.grade
 }
 
