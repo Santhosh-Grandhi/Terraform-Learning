@@ -1,5 +1,5 @@
 output "fruits" {
-  value = var.fruits[1]
+  value = var.fruits
 }
 
 variable fruits {}
