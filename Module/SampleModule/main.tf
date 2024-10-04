@@ -1,5 +1,5 @@
-resource "null_resource" "test" {
-  count = length(var.fruits)
+output "fruits" {
+  value = var.fruits[1]
 }
 
 variable fruits {}
