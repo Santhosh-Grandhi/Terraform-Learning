@@ -1,6 +1,6 @@
 module "sample" {
   source = "./SampleModule"
-  fruits = var.grade
+  grade = var.grade
 }
 
 variable "grade" {
